@@ -66,16 +66,18 @@ No third-party UI frameworks, themes, or fonts are bundled in this repository. T
 .
 ├── hyprland.conf
 └── README.md
+```
+---
 
 hyprland.conf
-The primary Hyprland configuration file. All behavior—keybindings, workspace logic, and window rules—is defined here.
+- The primary Hyprland configuration file. All behavior—keybindings, workspace logic, and window rules—is defined here.
+- The flat structure is intentional to keep the configuration easy to audit, fork, and adapt.
 
-The flat structure is intentional to keep the configuration easy to audit, fork, and adapt.
-
-Scope and Intent
+## Scope and Intent
 
 This repository is not a distribution, framework, or turnkey desktop setup. It exists to document experimentation and serve as a reference point for developers evaluating Hyprland or Wayland-based workflows.
 
+---
 
 If you want next steps, I can:
 - Tighten this further for **portfolio / recruiter review**
@@ -84,3 +86,5 @@ If you want next steps, I can:
 - Expand this into a **dotfiles-style repository structure**
 
 Just say which direction you want.
+
+---
